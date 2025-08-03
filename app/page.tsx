@@ -10,7 +10,7 @@ import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
 
 export const metadata = {
-  title: 'Yusufian | Portfolio',
+  title: 'Yusufia | Portfolio',
 };
 
 export default function Home() {

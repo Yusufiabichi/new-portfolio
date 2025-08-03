@@ -1,5 +1,7 @@
 'use client';
 
+import image from 'next/image';
+
 export default function AboutSection() {
   return (
     <section id="about" className="py-20 bg-gray-50">
@@ -32,7 +34,7 @@ export default function AboutSection() {
             <div className="relative">
               <div className="w-80 h-80 rounded-full overflow-hidden shadow-2xl">
                 <img 
-                  src="yusufia.jpg"
+                  src="/yusufia.jpg"
                   alt="Yusuf - Full Stack Developer"
                   className="w-full h-full object-cover object-top"
                 />
