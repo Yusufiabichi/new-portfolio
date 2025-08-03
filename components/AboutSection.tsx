@@ -33,9 +33,16 @@ export default function AboutSection() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <div className="w-80 h-80 rounded-full overflow-hidden shadow-2xl">
-                <image 
+                {/* <image 
                   src="/yusufia.jpg"
                   alt="Yusuf - Full Stack Developer"
+                  className="w-full h-full object-cover object-top"
+                /> */}
+                <Image 
+                  src="/yusufia.jpg"
+                  alt="Yusuf - Full Stack Developer"
+                  width={500} // or your desired width
+                  height={500} // or your desired height
                   className="w-full h-full object-cover object-top"
                 />
               </div>
