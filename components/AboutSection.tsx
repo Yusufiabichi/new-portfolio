@@ -1,6 +1,7 @@
 'use client';
 
-import image from 'next/image';
+import Image from 'next/image';
+
 
 export default function AboutSection() {
   return (
@@ -38,7 +39,7 @@ export default function AboutSection() {
                   alt="Yusuf - Full Stack Developer"
                   className="w-full h-full object-cover object-top"
                 /> */}
-                <Img 
+                <Image 
                   src="/yusufia.jpg"
                   alt="Yusuf - Full Stack Developer"
                   width={500} // or your desired width

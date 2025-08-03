@@ -37,14 +37,17 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Connect</h4>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 bg-gray-800 text-gray-300 rounded-full flex items-center justify-center hover:bg-gray-700 hover:text-white cursor-pointer transition-all">
+              <a href="https://github.com/Yusufiabichi/Yusufiabichi.git" className="w-10 h-10 bg-gray-800 text-gray-300 rounded-full flex items-center justify-center hover:bg-gray-700 hover:text-white cursor-pointer transition-all">
                 <i className="ri-github-line w-5 h-5 flex items-center justify-center"></i>
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 text-gray-300 rounded-full flex items-center justify-center hover:bg-gray-700 hover:text-white cursor-pointer transition-all">
+              <a href="http://www.linkedin.com/in/yusufiabichi" className="w-10 h-10 bg-gray-800 text-gray-300 rounded-full flex items-center justify-center hover:bg-gray-700 hover:text-white cursor-pointer transition-all">
                 <i className="ri-linkedin-fill w-5 h-5 flex items-center justify-center"></i>
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 text-gray-300 rounded-full flex items-center justify-center hover:bg-gray-700 hover:text-white cursor-pointer transition-all">
+              <a href="https://twitter.com/YusufiaBichi" className="w-10 h-10 bg-gray-800 text-gray-300 rounded-full flex items-center justify-center hover:bg-gray-700 hover:text-white cursor-pointer transition-all">
                 <i className="ri-twitter-fill w-5 h-5 flex items-center justify-center"></i>
+              </a>
+              <a href="https://wa.me/2347068538000/" className="w-10 h-10 bg-gray-800 text-gray-300 rounded-full flex items-center justify-center hover:bg-gray-700 hover:text-white cursor-pointer transition-all">
+                <i className="ri-whatsapp-fill w-5 h-5 flex items-center justify-center"></i>
               </a>
             </div>
           </div>

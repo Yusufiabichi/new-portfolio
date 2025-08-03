@@ -137,7 +137,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <div className="font-medium text-gray-900">Email</div>
-                    <div className="text-gray-600">yusuf.dev@example.com</div>
+                    <div className="text-gray-600">yusufiabichi@yahoo.com</div>
                   </div>
                 </div>
 
@@ -147,7 +147,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <div className="font-medium text-gray-900">WhatsApp</div>
-                    <div className="text-gray-600">+1 (555) 123-4567</div>
+                    <div className="text-gray-600"><a href="https://wa.me/2347068538000">+234 706 853 8000</a></div>
                   </div>
                 </div>
 
@@ -171,19 +171,25 @@ export default function ContactSection() {
               
               <div className="flex gap-4">
                 <a 
-                  href="#" 
+                  href="https://wa.me/2347068538000/" 
+                  className="w-12 h-12 bg-green-400 text-white rounded-full flex items-center justify-center hover:bg-green-500 cursor-pointer transition-colors"
+                >
+                  <i className="ri-whatsapp-fill text-xl w-6 h-6 flex items-center justify-center"></i>
+                </a>
+                <a 
+                  href="https://github.com/Yusufiabichi/Yusufiabichi.git" 
                   className="w-12 h-12 bg-gray-900 text-white rounded-full flex items-center justify-center hover:bg-gray-800 cursor-pointer transition-colors"
                 >
                   <i className="ri-github-line text-xl w-6 h-6 flex items-center justify-center"></i>
                 </a>
                 <a 
-                  href="#" 
+                  href="http://www.linkedin.com/in/yusufiabichi" 
                   className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 cursor-pointer transition-colors"
                 >
                   <i className="ri-linkedin-fill text-xl w-6 h-6 flex items-center justify-center"></i>
                 </a>
                 <a 
-                  href="#" 
+                  href="https://twitter.com/YusufiaBichi" 
                   className="w-12 h-12 bg-blue-400 text-white rounded-full flex items-center justify-center hover:bg-blue-500 cursor-pointer transition-colors"
                 >
                   <i className="ri-twitter-fill text-xl w-6 h-6 flex items-center justify-center"></i>
