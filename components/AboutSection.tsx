@@ -32,7 +32,7 @@ export default function AboutSection() {
             <div className="relative">
               <div className="w-80 h-80 rounded-full overflow-hidden shadow-2xl">
                 <img 
-                  src="https://readdy.ai/api/search-image?query=Professional%20software%20developer%20portrait%2C%20clean%20studio%20lighting%2C%20modern%20casual%20business%20attire%2C%20confident%20smile%2C%20minimal%20background%2C%20high%20quality%20headshot%2C%20professional%20photography%20style%2C%20tech%20professional%20appearance&width=400&height=400&seq=yusuf-portrait&orientation=squarish"
+                  src="yusufia.jpg"
                   alt="Yusuf - Full Stack Developer"
                   className="w-full h-full object-cover object-top"
                 />
