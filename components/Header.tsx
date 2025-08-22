@@ -24,7 +24,7 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold text-gray-900">
-            Yusuf
+            Yusufia
           </Link>
           
           {/* Desktop Navigation */}

@@ -137,7 +137,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <div className="font-medium text-gray-900">Email</div>
-                    <div className="text-gray-600">yusufiabichi@yahoo.com</div>
+                    <div className="text-gray-600"><a href="mailto:yusufiabichi@yahoo.com">yusufiabichi@yahoo.com</a></div>
                   </div>
                 </div>
 
@@ -157,7 +157,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <div className="font-medium text-gray-900">Schedule a Call</div>
-                    <div className="text-gray-600">Book a free consultation</div>
+                    <div className="text-gray-600"><a href="#">Book a free consultation</a></div>
                   </div>
                 </div>
               </div>

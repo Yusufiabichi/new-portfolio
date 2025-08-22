@@ -3,11 +3,11 @@
 export default function TestimonialsSection() {
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "Real Estate Agency Owner",
+      name: "Tukur Mahmud",
+      role: "CEO Cyclosis Real Estate Agency",
       project: "Real Estate Platform",
       content: "Yusuf transformed our business with an incredible real estate platform. Our sales increased by 40% in just 3 months. His attention to detail and technical expertise are outstanding.",
-      avatar: "SJ",
+      avatar: "TM",
       rating: 5
     },
     {
