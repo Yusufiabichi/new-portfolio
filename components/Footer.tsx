@@ -2,6 +2,8 @@
 import Link from 'next/link';
 
 export default function Footer() {
+  const date = new Date;
+  
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-6">
@@ -55,7 +57,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 Yusuf. All rights reserved. Available at yusuf.dev
+            © {date.getFullYear()} Yusufia All rights reserved.
           </p>
         </div>
       </div>

@@ -3,14 +3,14 @@
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "Real Estate Platform",
+      title: "Cylosis Real Estate Platform",
       image: "https://readdy.ai/api/search-image?query=Modern%20real%20estate%20website%20interface%20on%20laptop%20screen%2C%20clean%20property%20listings%2C%20professional%20real%20estate%20platform%20design%2C%20property%20photos%2C%20search%20filters%2C%20modern%20UI%2FUX%2C%20blue%20and%20white%20color%20scheme&width=600&height=400&seq=realestate-project&orientation=landscape",
-      tags: ["Next.js", "MongoDB", "Stripe", "Tailwind CSS"],
+      tags: ["Next.js", "MongoDB", "Tailwind CSS"],
       description: "Built a comprehensive real estate platform with property listings, virtual tours, and payment integration.",
       problem: "Local real estate agents needed a modern platform to showcase properties online",
-      solution: "Developed a full-featured platform with advanced search and payment processing",
+      solution: "Developed a full-featured platform with advanced search and Admin dashboard to manage properties",
       outcome: "Increased agent sales by 40% and reduced time-to-sale by 2 weeks",
-      liveDemo: "#",
+      liveDemo: "https://cyclosisrealestate.com.ng",
       github: "#"
     },
     {
@@ -20,8 +20,8 @@ export default function ProjectsSection() {
       description: "Created an AI-powered application that helps farmers identify and treat crop diseases using image recognition.",
       problem: "Farmers struggled to quickly identify crop diseases leading to significant losses",
       solution: "Built an AI system that analyzes crop photos and provides instant diagnosis",
-      outcome: "Achieved 95% accuracy rate with 1000+ active users saving $50K+ in crop losses",
-      liveDemo: "#",
+      outcome: "Raised awareness and built early farmer engagement.",
+      liveDemo: "https://noma-app-landing-page.vercel.app",
       github: "#"
     },
     {
@@ -36,14 +36,14 @@ export default function ProjectsSection() {
       github: "#"
     },
     {
-      title: "Task Management SaaS",
-      image: "https://readdy.ai/api/search-image?query=Project%20management%20software%20interface%2C%20task%20boards%2C%20team%20collaboration%20tools%2C%20modern%20SaaS%20application%20design%2C%20productivity%20dashboard%2C%20clean%20user%20interface%2C%20professional%20workflow%20management&width=600&height=400&seq=task-management&orientation=landscape",
+      title: "Hakassa Foundation",
+      image: "./hakassa.png",
       tags: ["Next.js", "Firebase", "Stripe", "Tailwind CSS"],
       description: "Built a collaborative task management platform with team features and subscription billing.",
-      problem: "Small teams needed an affordable, feature-rich project management solution",
-      solution: "Developed a SaaS platform with real-time collaboration and flexible pricing",
+      problem: "Lack of unified, user-friendly platform to manage scholarship applications, show impact, and engage users.",
+      solution: "Developed a Full-stack web app that lets students apply online, browse success stories and lets Admin manages application",
       outcome: "Acquired 500+ teams in first 6 months with 85% retention rate",
-      liveDemo: "#",
+      liveDemo: "https://hakassa.vercel.app",
       github: "#"
     }
   ];
