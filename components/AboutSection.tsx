@@ -15,17 +15,17 @@ export default function AboutSection() {
             
             <div className="prose prose-lg text-gray-700 space-y-6">
               <p className="text-lg leading-relaxed">
-                I'm a passionate web developer with strong expertise in building fast, responsive, and scalable full-stack applications. I've built everything from real estate platforms to AI-powered apps.
+                I engineer robust, scalable web systems that transform ideas into revenue-generating digital products. My projects range from full-stack platforms to AI-driven applications built for performance, security, and real-world impact.
               </p>
-              
+
               <p className="text-lg leading-relaxed">
-                My approach combines technical excellence with user-centered design, ensuring every project delivers both exceptional performance and intuitive user experiences.
+                By combining clean architecture with intuitive UX, I deliver solutions that load fast, scale effortlessly, and help organizations operate smarter, serve users better, and grow faster.
               </p>
               
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 mt-8">
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">Recent Achievement</h3>
                 <p className="text-gray-700">
-                  Built AI Crop Diagnosis App with Next.js + MongoDB that helps farmers identify plant diseases, serving 1000+ active users with 95% accuracy rate.
+                  Engineered an AI-powered crop diagnosis app with React Native and Express that allows farmers to identify plant diseases in seconds, serving 500+ users with 95% accuracy and improving early intervention outcomes.
                 </p>
               </div>
             </div>

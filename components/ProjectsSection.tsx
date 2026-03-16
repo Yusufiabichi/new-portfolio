@@ -3,48 +3,48 @@
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "Real Estate Platform",
-      image: "https://readdy.ai/api/search-image?query=Modern%20real%20estate%20website%20interface%20on%20laptop%20screen%2C%20clean%20property%20listings%2C%20professional%20real%20estate%20platform%20design%2C%20property%20photos%2C%20search%20filters%2C%20modern%20UI%2FUX%2C%20blue%20and%20white%20color%20scheme&width=600&height=400&seq=realestate-project&orientation=landscape",
-      tags: ["Next.js", "MongoDB", "Stripe", "Tailwind CSS"],
-      description: "Built a comprehensive real estate platform with property listings, virtual tours, and payment integration.",
-      problem: "Local real estate agents needed a modern platform to showcase properties online",
-      solution: "Developed a full-featured platform with advanced search and payment processing",
-      outcome: "Increased agent sales by 40% and reduced time-to-sale by 2 weeks",
-      liveDemo: "#",
-      github: "#"
+      title: "Miftah Edu-Trade Hub - Global Trade & Education Platform",
+      image: "./miftah2.png",
+      tags: ["React.js", "Express", "MySQL", "Tailwind CSS"],
+      description: "Corporate website for a firm offering import/export, education consulting, visa, and travel services.",
+      problem: "Clients lacked a central platform to discover and request multiple international services.",
+      solution: "Designed a structured website showcasing services, processes, and contact channels.",
+      outcome: "Improved online visibility and credibility for attracting global clients and partners.",
+      liveDemo: "https://miftahedutradehub.com/",
+      github: "https://github.com/Yusufiabichi/Miftahedutradehub2.git"
     },
     {
-      title: "AI Crop Diagnosis App",
-      image: "https://readdy.ai/api/search-image?query=Agricultural%20technology%20mobile%20app%20interface%2C%20crop%20disease%20detection%2C%20AI%20diagnosis%20system%2C%20green%20plants%2C%20modern%20farming%20technology%2C%20clean%20mobile%20UI%20design%2C%20agricultural%20innovation&width=600&height=400&seq=crop-ai-project&orientation=landscape",
-      tags: ["React", "Node.js", "TensorFlow", "MongoDB"],
-      description: "Created an AI-powered application that helps farmers identify and treat crop diseases using image recognition.",
-      problem: "Farmers struggled to quickly identify crop diseases leading to significant losses",
-      solution: "Built an AI system that analyzes crop photos and provides instant diagnosis",
-      outcome: "Achieved 95% accuracy rate with 1000+ active users saving $50K+ in crop losses",
-      liveDemo: "#",
-      github: "#"
+      title: "YM4SDGs - Youth Leadership & Sustainability Platform",
+      image: "./ym4sdgs.png",
+      tags: ["SDGs", "React.js", "Tailwind CSS", "Supabase"],
+      description: "Website for a youth-led organization promoting leadership and action on the UN Sustainable Development Goals.",
+      problem: "Young change-makers lacked a central platform to collaborate and showcase SDG initiatives.",
+      solution: "Built an informative site highlighting programs, events, and opportunities for youth engagement.",
+      outcome: "Strengthened global visibility and participation in sustainability projects and leadership programs.",
+      liveDemo: "https://ym4sdgs.org/",
+      github: "https://github.com/Yusufiabichi/YM4SDGs.git"
     },
     {
-      title: "E-commerce Dashboard",
-      image: "https://readdy.ai/api/search-image?query=Modern%20e-commerce%20admin%20dashboard%20interface%2C%20sales%20analytics%20charts%2C%20inventory%20management%2C%20clean%20data%20visualization%2C%20professional%20business%20dashboard%20design%2C%20graphs%20and%20metrics&width=600&height=400&seq=ecommerce-dashboard&orientation=landscape",
-      tags: ["React", "Express.js", "PostgreSQL", "Chart.js"],
-      description: "Developed a comprehensive admin dashboard for e-commerce businesses with real-time analytics and inventory management.",
-      problem: "E-commerce businesses needed better insights into their sales and inventory data",
-      solution: "Created a real-time dashboard with advanced analytics and automated reporting",
-      outcome: "Helped businesses increase efficiency by 30% and reduce inventory costs by 20%",
-      liveDemo: "#",
-      github: "#"
+      title: "NomaApp - AI Crop Disease Diagnosis",
+      image: "./nomaapp.png",
+      tags: ["AI", "Computer Vision", "Mobile App", "Node.js", "MongoDB"],
+      description: "AI mobile app that diagnoses crop diseases from leaf images and recommends treatments.",
+      problem: "Farmers lack quick access to experts, causing delayed diagnosis and crop losses.",
+      solution: "Built an AI-powered offline-capable app for instant plant disease detection.",
+      outcome: "Helps farmers take early action to protect yields and reduce losses.",
+      liveDemo: "https://nomaapp.com.ng/",
+      github: "https://github.com/Yusufiabichi/noma-app-ai.git"
     },
     {
-      title: "Task Management SaaS",
-      image: "https://readdy.ai/api/search-image?query=Project%20management%20software%20interface%2C%20task%20boards%2C%20team%20collaboration%20tools%2C%20modern%20SaaS%20application%20design%2C%20productivity%20dashboard%2C%20clean%20user%20interface%2C%20professional%20workflow%20management&width=600&height=400&seq=task-management&orientation=landscape",
-      tags: ["Next.js", "Firebase", "Stripe", "Tailwind CSS"],
-      description: "Built a collaborative task management platform with team features and subscription billing.",
-      problem: "Small teams needed an affordable, feature-rich project management solution",
-      solution: "Developed a SaaS platform with real-time collaboration and flexible pricing",
-      outcome: "Acquired 500+ teams in first 6 months with 85% retention rate",
-      liveDemo: "#",
-      github: "#"
+      title: "DYAM Natural Water Charity & Distribution Platform",
+      image: "./dyam.png",
+      tags: ["Node.js", "Express", "MySQL", "Paystack", "React", "Tailwind CSS"],
+      description: "Full-stack platform for managing charity donations and free water distribution.",
+      problem: "Manual processes made it difficult to track donations, sponsors, and distribution activities.",
+      solution: "Built a secure web system with Paystack payments, automated tracking, and admin dashboard.",
+      outcome: "Streamlined charity operations with transparent donations and efficient sponsor management.",
+      liveDemo: "https://dyamnaturalwater.com.ng",
+      github: "https://github.com/Yusufiabichi/Dyam-water.git"
     }
   ];
 
@@ -95,6 +95,7 @@ export default function ProjectsSection() {
                   <a 
                     href={project.liveDemo}
                     className="flex items-center gap-2 bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 cursor-pointer whitespace-nowrap transition-colors font-medium"
+                    target="_blank"
                   >
                     <i className="ri-external-link-line w-4 h-4 flex items-center justify-center"></i>
                     Live Demo

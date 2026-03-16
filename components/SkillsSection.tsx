@@ -5,23 +5,23 @@ export default function SkillsSection() {
     {
       category: "Frontend",
       technologies: [
-        { name: "HTML5", icon: "ri-html5-line", usage: "Used in all web projects" },
-        { name: "CSS3", icon: "ri-css3-line", usage: "Styling and animations" },
-        { name: "JavaScript", icon: "ri-javascript-line", usage: "Core programming language" },
-        { name: "React", icon: "ri-reactjs-line", usage: "Used in Real Estate Platform" },
-        { name: "Next.js", icon: "ri-nextjs-line", usage: "Used in AI Crop Diagnosis App" },
-        { name: "Tailwind CSS", icon: "ri-tailwind-css-line", usage: "Used in Task Management SaaS" }
+        { name: "HTML5", icon: "ri-html5-line", usage: "Used in Miftah Edu-Trade Hub and YM4SDGs" },
+        { name: "CSS3", icon: "ri-css3-line", usage: "Styling for web platforms and responsive design" },
+        { name: "JavaScript", icon: "ri-javascript-line", usage: "Core language for interactive features" },
+        { name: "React", icon: "ri-reactjs-line", usage: "Used in Miftah, YM4SDGs, and DYAM Water" },
+        { name: "Next.js", icon: "ri-nextjs-line", usage: "Server-side rendering for web apps" },
+        { name: "Tailwind CSS", icon: "ri-tailwind-css-line", usage: "Styling for Miftah, YM4SDGs, and DYAM projects" }
       ]
     },
     {
       category: "Backend",
       technologies: [
-        { name: "Node.js", icon: "ri-nodejs-line", usage: "Server-side development" },
-        { name: "Express.js", icon: "ri-server-line", usage: "Used in E-commerce Dashboard" },
-        { name: "MongoDB", icon: "ri-database-2-line", usage: "Used in Real Estate Platform" },
-        { name: "PostgreSQL", icon: "ri-database-line", usage: "Used in E-commerce Dashboard" },
-        { name: "Firebase", icon: "ri-firebase-line", usage: "Used in Task Management SaaS" },
-        { name: "Git", icon: "ri-git-branch-line", usage: "Version control for all projects" }
+        { name: "Node.js", icon: "ri-nodejs-line", usage: "Server runtime for NomaApp and DYAM Water" },
+        { name: "Express.js", icon: "ri-server-line", usage: "API framework for Miftah and DYAM Water" },
+        { name: "MongoDB", icon: "ri-database-2-line", usage: "Database for NomaApp AI data" },
+        { name: "PostgreSQL", icon: "ri-database-line", usage: "Relational database management" },
+        { name: "Firebase", icon: "ri-firebase-line", usage: "Cloud services and authentication" },
+        { name: "Git", icon: "ri-git-branch-line", usage: "Version control for all portfolio projects" }
       ]
     }
   ];
@@ -49,7 +49,7 @@ export default function SkillsSection() {
                 {skillGroup.technologies.map((tech, techIndex) => (
                   <div 
                     key={techIndex} 
-                    className="group relative bg-gray-50 rounded-xl p-6 hover:bg-blue-50 cursor-pointer transition-all duration-300 hover:shadow-md"
+                    className="group relative hover:bg-gray-50 rounded-xl p-6 bg-blue-50 cursor-pointer transition-all duration-300 hover:shadow-md"
                   >
                     <div className="flex flex-col items-center text-center">
                       <div className="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow-sm group-hover:shadow-md transition-shadow duration-300 mb-4">
@@ -58,7 +58,7 @@ export default function SkillsSection() {
                       <h4 className="font-semibold text-gray-900 mb-2">
                         {tech.name}
                       </h4>
-                      <p className="text-sm text-gray-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <p className="text-sm text-gray-600 opacity-100 transition-opacity duration-300">
                         {tech.usage}
                       </p>
                     </div>
