@@ -55,7 +55,7 @@ export default function ProjectsSection() {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Featured Projects
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600">
             A showcase of my recent work building scalable web applications that solve real-world problems
           </p>
         </div>

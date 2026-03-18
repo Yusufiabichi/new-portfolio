@@ -40,7 +40,7 @@ export default function AboutSection() {
                   className="w-full h-full object-cover object-top"
                 /> */}
                 <Image 
-                  src="/yusufia.jpg"
+                  src="/yusufia-pic.jpg"
                   alt="Yusuf - Full Stack Developer"
                   width={500} // or your desired width
                   height={500} // or your desired height

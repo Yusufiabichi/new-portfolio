@@ -6,7 +6,7 @@ export default function TestimonialsSection() {
       name: "Tukur Mahmud",
       role: "CEO Cyclosis Real Estate Agency",
       project: "Real Estate Platform",
-      content: "Yusuf transformed our business with an incredible real estate platform. Our sales increased by 40% in just 3 months. His attention to detail and technical expertise are outstanding.",
+      content: "Yusuf built our Real Estate website with a modern interface and powerful admin dashboard. We can now update information anytime without technical help.",
       avatar: "TM",
       rating: 5
     },

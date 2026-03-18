@@ -3,6 +3,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import Image from 'next/image';
 
 
 
@@ -23,9 +24,9 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm border-b border-gray-100 z-50">
       <nav className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold text-gray-900">
-            Yusufia
-          </Link>
+          {/* <Link href="/" className="text-2xl font-bold text-gray-900">
+          </Link> */}
+            <Image src="./logo.png" alt='Yusufi Logo' width={100} height={100}/>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
