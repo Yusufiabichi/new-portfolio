@@ -3,27 +3,27 @@
 export default function TestimonialsSection() {
   const testimonials = [
     {
-      name: "Tukur Mahmud",
-      role: "CEO Cyclosis Real Estate Agency",
-      project: "Real Estate Platform",
-      content: "Yusuf built our Real Estate website with a modern interface and powerful admin dashboard. We can now update information anytime without technical help.",
-      avatar: "TM",
+      name: "Tobiloba Oluwa",
+      role: "CEO Youth Movement for SDGs",
+      project: "YM4SDGs Website",
+      content: "Yusuf did an amazing job building our website. He understood our mission and created a platform that truly represents our work. The site is user-friendly and has helped us reach a wider audience.",
+      avatar: "TO",
       rating: 5
     },
     {
-      name: "Dr. Michael Chen",
-      role: "Agricultural Consultant",
-      project: "AI Crop Diagnosis App",
-      content: "The AI crop diagnosis app Yusuf built has been a game-changer for our farming community. The 95% accuracy rate has saved thousands of dollars in crop losses. Exceptional work!",
-      avatar: "MC",
+      name: "Mustapha Mukhtar",
+      role: "CEO Miftah Edu-Trade Hub",
+      project: "Miftah Edu-Trade Hub Website",
+      content: "Yusuf delivered a professional website that perfectly showcased our services. The site is easy to navigate and has helped us attract more clients globally.",
+      avatar: "MM",
       rating: 5
     },
     {
-      name: "Lisa Rodriguez",
-      role: "E-commerce Store Owner",
-      project: "E-commerce Dashboard",
-      content: "Working with Yusuf was a pleasure. He delivered a comprehensive dashboard that gave us insights we never had before. Our inventory management improved dramatically.",
-      avatar: "LR",
+      name: "Arc. Ahmad Said",
+      role: "CEO DYAM Natural Water",
+      project: "DYAM Natural Water Charity Platform",
+      content: "Yusuf built a fantastic platform for our charity operations. The system is efficient and has streamlined our donation management and water distribution processes.",
+      avatar: "AS",
       rating: 5
     }
   ];
